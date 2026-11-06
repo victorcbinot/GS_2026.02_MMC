@@ -1,4 +1,4 @@
-# Etapa 1 — Modelagem Matemática e Computacional
+# Etapa 1 - Modelagem Matemática e Computacional
 
 ## A) Definição das variáveis
 
