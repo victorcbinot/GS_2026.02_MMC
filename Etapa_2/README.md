@@ -128,3 +128,7 @@ Como cada resultado da transformação é uma soma de produtos entre valores nã
 No cenário analisado, a distribuição final é composta por 14 ônibus no Norte, 19 no Sul, 18 no Leste e 21 no Oeste.
 
 Portanto, a política preserva a frota total e não produz alocações negativas, atendendo às condições matemáticas estabelecidas para o problema.
+
+**Verificação da integralidade das alocações**
+
+Para a distribuição inicial utilizada neste problema, a transformação também resulta em quantidades inteiras de ônibus, conforme demonstrado nos cálculos e na implementação em Python. Entretanto, como a matriz utiliza proporções, essa garantia de integralidade é válida para a distribuição específica analisada, não necessariamente para qualquer outra distribuição inicial.

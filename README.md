@@ -16,11 +16,11 @@ Global-Solution-MMC/
 ├── README.md
 ├── requirements.txt
 │
-├── etapa_1/
+├── Etapa_1/
 │   ├── README.md
 │   └── resolucao.py
 │
-└── etapa_2/
+└── Etapa_2/
     ├── README.md
     └── redistribuicao.py
 ```
@@ -67,7 +67,7 @@ Os códigos das duas etapas podem ser executados separadamente, utilizando o ter
 Para executar a implementação da primeira etapa, utilize:
 
 ```bash
-python etapa_1/resolucao.py
+python Etapa_1/resolucao.py
 ```
 
 O programa resolve o sistema de equações, calcula o determinante da matriz e verifica os resultados encontrados.
@@ -77,7 +77,7 @@ O programa resolve o sistema de equações, calcula o determinante da matriz e v
 Para executar a implementação da segunda etapa, utilize:
 
 ```bash
-python etapa_2/redistribuicao.py
+python Etapa_2/redistribuicao.py
 ```
 
 O programa será responsável por executar a política de redistribuição desenvolvida pela equipe, considerando as condições e restrições estabelecidas no problema.
