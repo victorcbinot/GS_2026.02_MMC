@@ -13,6 +13,8 @@ Para descobrir a quantidade de ônibus necessária em cada região, dividimos a 
 
 Portanto, a quantidade total necessária é de 72 ônibus.
 
+Como todas as divisões são exatas, não é necessário arredondar a quantidade de ônibus para cima.
+
 ## B) Identificação dos desequilíbrios
 
 Comparando a distribuição original, obtida na Etapa 1, com a quantidade necessária para atender à demanda, identificamos os seguintes desequilíbrios:
@@ -38,6 +40,8 @@ As transferências estabelecidas são:
 - A região Sul transfere 1 ônibus para o Norte.
 - A região Oeste transfere 1 ônibus para o Norte.
 - A região Oeste transfere 2 ônibus para o Leste.
+
+Como os déficits somam 4 ônibus (2 no Norte e 2 no Leste) e os excedentes somam 4 (1 no Sul e 3 no Oeste), a política realiza exatamente 4 transferências, o mínimo necessário para equilibrar a frota.
 
 Essa política foi escolhida para que todas as regiões alcancem exatamente a quantidade de ônibus necessária para atender à demanda estimada, sem aumentar a frota total.
 
@@ -105,6 +109,12 @@ Dessa forma, a transformação produz a distribuição planejada na política de
 **Preservação da quantidade total de ônibus**
 
 Para garantir que a transformação preserve a quantidade total de ônibus, a soma dos coeficientes de cada coluna da matriz deve ser igual a 1.
+
+Como todas as colunas somam 1, tem-se `1ᵀM = 1ᵀ`. Assim, o total final é:
+
+`1ᵀX' = 1ᵀ(MX) = (1ᵀM)X = 1ᵀX`
+
+ou seja, igual ao total original.
 
 Verificando cada coluna:
 

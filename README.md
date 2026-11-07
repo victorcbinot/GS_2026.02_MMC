@@ -11,7 +11,7 @@ O projeto está dividido em duas etapas, contemplando a modelagem matemática do
 ## Estrutura do projeto
 
 ```text
-Global-Solution-MMC/
+GS_2026.02_MMC/
 │
 ├── README.md
 ├── requirements.txt
@@ -31,10 +31,10 @@ Global-Solution-MMC/
 |---|---|
 | `README.md` | Documentação geral do projeto. |
 | `requirements.txt` | Bibliotecas necessárias para executar o projeto. |
-| `etapa_1/README.md` | Documentação da modelagem matemática e dos itens A até F. |
-| `etapa_1/resolucao.py` | Implementação e resolução do sistema de equações. |
-| `etapa_2/README.md` | Documentação da proposta de redistribuição dos ônibus. |
-| `etapa_2/redistribuicao.py` | Implementação da política de redistribuição. |
+| `Etapa_1/README.md` | Documentação da modelagem matemática e dos itens A até F. |
+| `Etapa_1/resolucao.py` | Implementação e resolução do sistema de equações. |
+| `Etapa_2/README.md` | Documentação da proposta de redistribuição dos ônibus. |
+| `Etapa_2/redistribuicao.py` | Implementação da política de redistribuição. |
 
 ## Tecnologias utilizadas
 
@@ -80,7 +80,12 @@ Para executar a implementação da segunda etapa, utilize:
 python Etapa_2/redistribuicao.py
 ```
 
-O programa será responsável por executar a política de redistribuição desenvolvida pela equipe, considerando as condições e restrições estabelecidas no problema.
+O programa executa a política de redistribuição desenvolvida pela equipe, considerando as condições e restrições estabelecidas no problema.
+
+## Resultados
+
+- **Etapa 1:** Norte = 12, Sul = 20, Leste = 16, Oeste = 24 (total de 72 ônibus); determinante da matriz = -3.
+- **Etapa 2:** Norte = 14, Sul = 19, Leste = 18, Oeste = 21 (total de 72 ônibus), atendendo à demanda estimada.
 
 ## Organização do desenvolvimento
 

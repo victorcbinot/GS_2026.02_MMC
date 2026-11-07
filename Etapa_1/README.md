@@ -13,7 +13,7 @@ Todas as variáveis representam quantidades inteiras e não negativas de ônibus
 
 ## B) Construção do modelo matemático
 
-Com base nas relações operacionais apresentadas no enunciado, foram construídas quatro equações:
+Com base nas relações operacionais apresentadas no Relatório I, foram construídas quatro equações:
 
 1. Norte + Oeste + dobro do Sul = 76
 
