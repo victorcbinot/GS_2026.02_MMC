@@ -51,7 +51,7 @@ total_final = np.sum(nova_distribuicao)
 
 print(f"Total original: {total_original:.0f}")
 print(f"Total final: {total_final:.0f}")
-print(f"Total preservado: {total_original == total_final}")
+print(f"Total preservado: {np.isclose(total_original, total_final)}")
 
 # Verifica se os coeficientes são não negativos
 print(f"Coeficientes não negativos: {np.all(M >= 0)}")

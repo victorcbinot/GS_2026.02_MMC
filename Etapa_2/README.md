@@ -41,7 +41,7 @@ As transferências estabelecidas são:
 - A região Oeste transfere 1 ônibus para o Norte.
 - A região Oeste transfere 2 ônibus para o Leste.
 
-Como os déficits somam 4 ônibus (2 no Norte e 2 no Leste) e os excedentes somam 4 (1 no Sul e 3 no Oeste), a política realiza exatamente 4 transferências, o mínimo necessário para equilibrar a frota.
+Como os déficits somam 4 ônibus (2 no Norte e 2 no Leste) e os excedentes somam 4 (1 no Sul e 3 no Oeste), a política realiza a transferência de exatamente 4 ônibus, a quantidade mínima necessária para equilibrar a frota.
 
 Essa política foi escolhida para que todas as regiões alcancem exatamente a quantidade de ônibus necessária para atender à demanda estimada, sem aumentar a frota total.
 
