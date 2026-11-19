@@ -104,6 +104,10 @@ X' = [14, 19, 18, 21]ᵀ
 
 Dessa forma, a transformação produz a distribuição planejada na política de redistribuição.
 
+**Limitação e aplicação da matriz**
+
+A matriz M foi construída considerando a distribuição inicial específica da frota apresentada no Relatório I. Portanto, seus coeficientes representam uma política de redistribuição calibrada para esse cenário. Sua estrutura garante a preservação do total de ônibus e a não negatividade das alocações, mas a obtenção de quantidades inteiras e o atendimento exato da demanda foram verificados para a distribuição analisada neste problema.
+
 ## F) Demonstração da preservação do total e da não negatividade
 
 **Preservação da quantidade total de ônibus**
