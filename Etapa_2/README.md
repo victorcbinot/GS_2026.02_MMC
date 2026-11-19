@@ -55,6 +55,8 @@ Após a redistribuição, obtemos:
 | Oeste | 24 | 21 |
 | **Total** | **72** | **72** |
 
+A escolha das transferências foi baseada nos desequilíbrios identificados: regiões com excesso de ônibus disponibilizam veículos para regiões com déficit. Assim, o Sul transfere 1 ônibus para o Norte, enquanto o Oeste transfere 1 ônibus para o Norte e 2 para o Leste. A escolha dessas origens e destinos é uma decisão da política proposta pela equipe, respeitando os déficits e excedentes identificados.
+
 ## D) Representação da política como transformação linear
 
 Para representar matematicamente a redistribuição, utilizamos a transformação linear:
