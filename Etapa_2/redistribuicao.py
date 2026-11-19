@@ -21,7 +21,7 @@ passageiros = np.array([560, 760, 720, 840])
 capacidade_por_onibus = 40
 
 # Demanda estimada de ônibus por região
-demanda = np.ceil(passageiros / capacidade_por_onibus).astype(int)
+demanda = (passageiros / capacidade_por_onibus).astype(int)
 
 # Análise da demanda e dos desequilíbrios
 regioes = ["Norte", "Sul", "Leste", "Oeste"]
